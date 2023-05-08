@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Overpass:wght@200;300;600&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    width: 34%;
+    box-shadow: 0 6px 6px  rgb(146, 134, 134);
+    border-radius: 20px;
+}
+.left{
+    width: 100%;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 20px;
+    gap: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.left p{
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.circle{
+    background: linear-gradient(360deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+.great{
+    text-align: center;
+    font-size: large;
+}
+.right{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.rt{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 65%, 83%);
+    padding: 7px;
+    border-radius: 8px;
+}
+.rt2{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(39, 41%, 73%);
+    padding: 7px;
+    border-radius: 8px;
+
+}
+.rt3{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(166, 49%, 78%);
+    padding: 7px;
+    border-radius: 8px;
+
+}
+.rt4{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(234, 28%, 64%);
+    padding: 7px;
+    border-radius: 8px;
+
+}
+
+button{
+    padding: 15px 0;
+    border-radius: 25px;
+    border: none;
+    color: hsl(224, 30%, 27%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+@media screen and (max-width:950px) {
+    body{
+        width: 100%;
+    }
+    section{
+        width: 60%;
+        flex-direction: column;
+    }
+}
